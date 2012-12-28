@@ -1,0 +1,17 @@
+Proceso de ingesta de imágenes:
+
+-1 Lectura de configuración predeterminada:
+* Host de base de datos
+* Usuario de base de datos
+* Contraseña de base de datos
+* Base de datos
+
+0. Lectura de archivo INI de configuración de ingesta. En el INI se especifica:
+* Host de base de datos
+* Usuario de base de datos
+* Contraseña de base de datos
+* Base de datos
+* Tabla de base de datos
+* Directorio contenedor de imágenes
+
+Para cada imagen .tif encontrada

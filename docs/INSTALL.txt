@@ -1,0 +1,8 @@
+INSTALL
+
+Copy files to /usr/local/escoffier (or some other location)
+Setup environment variable $ESCOFFIER_HOME to that location
+Add $ESCOFFIER_HOME/bin to your $PATH env. variable
+Have a database ready for Escoffier in your MySQL
+Configure the global settings in $ESCOFFIER_HOME/config/global.in
+Add /tmp/escoffier to the file /etc/apparmor.d/usr.sbin.mysql
